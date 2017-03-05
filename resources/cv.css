@@ -62,8 +62,8 @@
 /* Header
 **********/
 	header[role=banner] {
-		background:#fff;
-		border-bottom:4px solid #33a4c9;
+		background:#F16E10;
+		border-bottom:4px solid #FFD500;
 		padding: 19px 0;
 		overflow: hidden;
 	}
@@ -89,7 +89,7 @@
 	}
 	
 	header hgroup h1 {
-		color:#555;
+		color:#fff;
 		font-family:'DroidSansBold', Arial, sans-serif;
 	}
 	
@@ -117,8 +117,8 @@
 	}
 	
 	.contactform input[type=text], .contactform input[type=email], .contactform textarea {
-		background: #2983a0;
-		border: 1px solid #226d85;
+		background: #FB9A3A;
+		border: 1px solid #FB9A3A;
 		border-radius: 2px;
 		color: #fff;
 		max-width: 100%;
@@ -141,7 +141,7 @@
 	}
 	
 	.contactform input[type=text]:focus, .contactform input[type=email]:focus, .contactform textarea:focus {
-		border: 1px solid #226d85;
+		border: 1px solid #FB9A3A;
 		opacity: 1;
 		outline: none;
 		-webkit-transition: opacity 1s;
@@ -231,7 +231,7 @@
 	}
 	
 	section[role=main] h3:before {
-		background-color: #33a4c9;
+		background-color: #FB9A3A;
 		border-radius: 25px;
 	}
 	
@@ -273,7 +273,7 @@
 	}
 	
 	section[role=main] h4 strong {
-		color: #147393;
+		color: #FB9A3A;
 		font-weight: normal;
 	}
 	
@@ -293,7 +293,7 @@
 	/* Affichage des compétences sous forme de tags
 	**********************************************/
 	.competences .tags li {
-		background-color:#33a4c9;
+		background-color:#FB9A3A;
 		border:1px solid #1b91b7;
 		border-radius: 15px;
 		color:#fff;
@@ -322,7 +322,7 @@
 	}
 	
 	.competences .barres li span {
-		background: #33a4c9;
+		background: #FB9A3A;
 		bottom: -4px;
 		content: ' ';
 		display: block;
